@@ -6,8 +6,7 @@ import HomePage from "./pages/homepage/page";
 function Layout() {
   return (
     <div>
-      {/* stuff you always want visible (header, theme providers, etc.) */}
-      <Outlet /> {/* page content renders here */}
+      <Outlet />
     </div>
   );
 }
